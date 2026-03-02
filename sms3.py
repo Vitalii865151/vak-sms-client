@@ -1,4 +1,4 @@
-# sms3.py Получение номера США обычного в вак смс
+# sms3.py Получение номера в вак смс
 import time
 import requests
 import logging
@@ -81,4 +81,5 @@ def send_get_request2(timeout_minutes=4):
 if __name__ == "__main__":
     if send_get_request():
         code = send_get_request2()
+
         print("SMS CODE:", code)
