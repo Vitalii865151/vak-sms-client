@@ -16,5 +16,5 @@
 
 1. Склонируйте репозиторий:
 ```bash
-git clone https://github.com/<username>/vak-sms-client.git
+git clone https://github.com/vak-sms-client/vak-sms-client.git
 cd vak-sms-client
